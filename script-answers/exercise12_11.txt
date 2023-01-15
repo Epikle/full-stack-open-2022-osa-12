@@ -1,0 +1,11 @@
+> docker container ls
+> docker exec -it 0028c6bd6190 bash
+> redis-cli
+> KEYS *
+> GET todo-count
+> SET todo-count 9001
+> GET todo-count
+> DEL todo-count
+> GET todo-count
+
+

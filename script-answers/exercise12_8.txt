@@ -1,0 +1,11 @@
+> docker container ls
+> docker exec -it 49ee39750fa4 bash
+> ls
+> mongosh -u root -p example
+> show dbs
+> use the_database
+> show collections
+> db.todos.find({})
+> db.todos.insertOne({text: "Increase the number of tools in my toolbelt", done: false})
+> db.todos.find({})
+>
